@@ -13,3 +13,4 @@ npm install -g --unsafe-perm \
 						node-red
 
 cp /usr/src/app/flows-raspberrypi.json /root/.node-red/flows-$HOSTNAME.json
+cp /usr/src/app/flows-raspberrypi.json /root/.node-red/flows-test.json
