@@ -12,3 +12,4 @@ npm install -g --unsafe-perm \
 						pm2 \
 						node-red
 
+cp /app/flows-raspberrypi.json /root/.node-red/flows-$HOSTNAME.json
