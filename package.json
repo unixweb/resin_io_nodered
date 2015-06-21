@@ -1,6 +1,6 @@
 {
 	"name": "resin-io-nodered",
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"description": "Resin.io repository to setup Node-RED application with GPIO support",
 	"homepage": "https://github.com/vergissberlin/resin_io_nodered",
 	"license": "MIT",
@@ -14,5 +14,8 @@
 	},
 	"engines": {
 		"node": "0.10"
+	},
+	dependencies: {
+		node-red: "0.10.8"
 	}
 }
